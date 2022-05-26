@@ -31,4 +31,4 @@ snarkjs zkey beacon eddsa_0003.zkey eddsa_final.zkey 0102030405060708090a0b0c0d0
 # snarkjs zkey verify eddsa.r1cs powersOfTau28_hez_final_16.ptau eddsa_final.zkey
 snarkjs zkey export verificationkey eddsa_final.zkey verification_key.json
 snarkjs groth16 prove eddsa_final.zkey witness.wtns proof.json public.json
-# snarkjs groth16 verify verification_key.json public.json proof.json
+snarkjs groth16 verify verification_key.json public.json proof.json

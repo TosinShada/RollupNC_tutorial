@@ -6,7 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/therealyingtong/RollupNC_tutorial.git"
@@ -20,6 +19,7 @@
   "dependencies": {
     "circomlib": "^2.0.3",
     "circomlibjs": "^0.1.2",
+    "ethers": "^5.6.8",
     "snarkjs": "^0.4.16"
   }
 }
